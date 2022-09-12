@@ -5,3 +5,25 @@
     box-sizing: border-box;
 }
 
+header {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    
+    /* DEBUG */
+    border: 1px dashed black;
+
+}
+
+.nav-sx , .nav-dx {
+    width: 30%;
+    height: 80px;
+    display: inline-block;
+    /* DEBUG */
+    background-color: lightblue;
+}
+
+.nav-dx {
+    position: absolute;
+    right: 0;
+}
