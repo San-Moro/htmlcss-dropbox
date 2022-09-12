@@ -30,8 +30,14 @@ html {
     justify-content: center;
 }
 
+/* UTILITIES */
 h1 {
     font-size: 3.4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 2em 0 2em 0;
 }
 
 /* HEADER */
@@ -133,4 +139,22 @@ header {
     /* DEBUG */
     height: 400px;
     background-color: rgb(255, 215, 215) 
+}
+
+/* Operations */
+
+.row-operations {
+    width: 100%;
+    justify-content: space-between;
+    /* DEBUG */
+    height: 400px;
+    background-color: rgb(255, 236, 162);
+    margin-bottom: 5em;
+}
+
+.col-operation {
+    width: calc(100% /3 - 20px);
+    /* DEBUG */
+    height: 400px;
+    border: 1px solid brown;
 }
