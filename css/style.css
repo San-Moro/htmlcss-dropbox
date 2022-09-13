@@ -50,6 +50,10 @@ h5 {
     margin: 1em 0;
 }
 
+p {
+    font-size: 1.4rem;
+}
+
 .btn {
     min-width: 200px;
     background-color: #0061ff;
@@ -157,15 +161,15 @@ a.btn-cancel-jumbo {
 }
 
 .title-plan {
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3 - 25px);
     font-size: 1.6rem;
     border: .5px solid lightgray;
     text-align: center;
-    padding: 1em 0;
+    padding: .5em 0;
 }
 
 .col-plan {
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3 - 25px);
     border: .5px solid lightgray;
     margin-bottom: 20px;
     padding: 2.5em;
@@ -215,6 +219,7 @@ span:nth-child(3) {
     font-size: 1.4rem;
     border: .5px solid lightgray;
     padding: 1em 0;
+    margin-top: 2em;
 }
 
 .team {
@@ -251,18 +256,27 @@ span:nth-child(3) {
 
 
 /* Find-partner */
+.find-partner {
+    margin-top: 8em;
+}
+
 .img-partner {
     width: 60%;
-    /* DEBUG */
-    height: 400px;
-    background-color: rgb(186, 142, 142) 
 }
 
 .item-partner {
     width: 40%;
-    /* DEBUG */
-    height: 400px;
-    background-color: rgb(255, 215, 215) 
+    padding: 4em;
+}
+
+.btn-partner {
+    background-color: white;
+    border: .5px solid black;
+    padding: 15px 30px;
+    margin-top: 2em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
 }
 
 /* Operations */
