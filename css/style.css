@@ -16,17 +16,11 @@ img {
 /* COMMON */
 .container-large {
     width: 65%;
-    /* DEBUG */
-    min-height: 100px;
-    border: 2px dotted blue;
 }
 
 .container-small {
     width: 50%;
     margin-top: 5em;
-    /* DEBUG */
-    min-height: 200px;
-    border: 2px dotted rgb(71, 143, 106);
 }
 
 .flex {
@@ -37,12 +31,13 @@ img {
 /* UTILITIES */
 
 h2 {
-    font-size: 3rem;
-    margin: 2em 0 2em 0;
+    font-size: 4rem;
+    margin: 1.5em 0 1.5em;
 }
 
 h3 {
     font-size: 2.2rem;
+    margin: 0 0 1.4em;
 }
 
 h4 {
@@ -50,12 +45,13 @@ h4 {
     margin: 2em 0 2em 0;
 }
 
-li {
-    list-style-type: none;
-    line-height: 80px;
+h5 {
+    font-size: 1.4rem;
+    margin: 1em 0;
 }
 
 .btn {
+    min-width: 200px;
     background-color: #0061ff;
     border: none;
     color: white;
@@ -68,8 +64,12 @@ li {
 }
 
 .btn-large {
-    padding: 15px 20px;
-    margin: 30px 0;
+    padding: 15px 40px;
+    
+}
+
+li{
+    list-style-type: none;
 }
 
 /* HEADER */
@@ -99,6 +99,10 @@ header {
 .menu-header {
     justify-content: space-between;
     align-items: center;
+}
+
+.menu-header li {
+    line-height: 80px;
 }
 
 .menu-header a {
@@ -148,21 +152,64 @@ a.btn-cancel-jumbo {
 /* MAIN */
 /* Tariff-plan */
 
-.tariff-plan-columns {
+.tariff-plan-columns,.title-tariff-plan {
     justify-content: space-between;
 }
 
-.professional-plan ,
-.advanced-plan ,
-.enterprise-plan {
-    width: calc(100% / 3 - 1em);
-    margin: 5em 0 5em;
-    /* DEBUG */
-    min-height: 600px;
-    background-color: rgb(200, 200, 200);
+.title-plan {
+    width: calc(100% / 3 - 10px);
+    font-size: 1.6rem;
+    border: .5px solid lightgray;
+    text-align: center;
+    padding: 1em 0;
 }
 
-.tariff-plan-row {
+.col-plan {
+    width: calc(100% / 3 - 10px);
+    border: .5px solid lightgray;
+    margin-bottom: 20px;
+    padding: 2.5em;
+}
+
+span:nth-child(3) {
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-bottom: 2em;
+}
+
+.list-col-plan li:first-child{
+    margin-top: 2em;
+}
+
+.list-col-plan li:last-child{
+    margin-bottom: 1.5em;
+  }
+
+.list-col-plan li {
+    padding: .8em 0;
+    font-size: 1.4rem;
+}
+
+.buy-now-col {
+    font-size: 1.4rem;
+    margin: .8em 0;
+}
+
+.buy-now-col a {
+    color: #0061ff;
+}
+
+.line-col-plan {
+    width: 20%;
+    margin: 4em 0;
+}
+
+.fa-check {
+    color: #0061ff;
+}
+
+.tariff-plan-bottom {
     width: 100%;
     margin-bottom: 10em;
     /* DEBUG */
