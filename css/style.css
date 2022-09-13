@@ -209,13 +209,46 @@ span:nth-child(3) {
     color: #0061ff;
 }
 
+    /* tariff-plan-bottom */
 .tariff-plan-bottom {
     width: 100%;
-    margin-bottom: 10em;
-    /* DEBUG */
-    height: 200px;
-    background-color: rgb(200, 200, 200)
+    font-size: 1.4rem;
+    border: .5px solid lightgray;
+    padding: 1em 0;
 }
+
+.team {
+    border-bottom: .5px solid lightgray;
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+.container-col-plan-bottom {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.col-plan-bottom {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.col-plan-bottom h5 {
+    margin-bottom: 4em;
+}
+
+.btn-col-bottom {
+    position: relative;
+    
+}
+
+.btn-position {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 
 /* Find-partner */
 .img-partner {
