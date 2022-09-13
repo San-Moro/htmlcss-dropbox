@@ -9,6 +9,9 @@ html {
     font-family: 'Open Sans', sans-serif;
     font-size: 62.5%;
 }
+img {
+    max-width: 100%;
+}
 /* COMMON */
 .container-large {
     width: 70%;
