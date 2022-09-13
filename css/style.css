@@ -51,7 +51,8 @@ h5 {
 }
 
 p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    line-height: 1.5em;
 }
 
 .btn {
@@ -284,17 +285,11 @@ span:nth-child(3) {
 .row-operations {
     width: 100%;
     justify-content: space-between;
-    /* DEBUG */
-    height: 400px;
-    background-color: rgb(255, 236, 162);
-    margin-bottom: 5em;
+    margin-bottom: 4em;
 }
 
 .col-operation {
     width: calc(100% /3 - 20px);
-    /* DEBUG */
-    height: 400px;
-    border: 1px solid brown;
 }
 
 /* Clients */
