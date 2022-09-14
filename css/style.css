@@ -470,16 +470,30 @@ section.clients-text {
 .faq {
     margin-bottom: 5em;
 }
+
 .question {
     position: relative;
 }
+
 .question span {
     position: absolute;
     right: 0;
 }
+
 hr:last-child {
     margin-bottom: 5em;
 }
+
+/* clicking on the arrow */
+.answer {
+    display: none;
+    font-size: 1.4rem;
+    padding-bottom: 2em;
+}
+.container-click:active .answer {
+    display: block;
+}
+
 
 
 /* FOOTER */
