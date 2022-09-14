@@ -461,9 +461,20 @@ section.clients-text {
 }
 
 /* FAQ */
+.faq {
+    margin-bottom: 5em;
+}
+.question {
+    position: relative;
+}
+.question span {
+    position: absolute;
+    right: 0;
+}
 hr:last-child {
     margin-bottom: 5em;
 }
+
 
 /* FOOTER */
 footer {
