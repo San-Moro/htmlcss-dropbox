@@ -181,9 +181,14 @@ header {
     padding-top: 80px;
 }
 
+.jumbotron .container-large {
+    position: relative;
+    bottom: -80px;
+}
+
 .title h1 {
     width: 100%;
-    margin: 80px 0 50px;
+    margin: 0px 0 50px;
     font-size: 8rem;
     font-weight: 900;
 }
@@ -195,6 +200,7 @@ header {
 .item-jumbotron-sx {
     width: 35%;
     font-size: 1.6rem;
+    padding-bottom: 100px;
 }
 
 a.btn-cancel-jumbo {
