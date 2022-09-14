@@ -37,7 +37,7 @@ h2 {
 
 h3 {
     font-size: 2.2rem;
-    margin: 0 0 1.4em;
+    margin: 0 0 1em;
 }
 
 h4 {
@@ -47,7 +47,7 @@ h4 {
 
 h5 {
     font-size: 1.4rem;
-    margin: 1em 0;
+    margin: .8em 0;
 }
 
 p {
@@ -157,35 +157,41 @@ a.btn-cancel-jumbo {
 /* MAIN */
 /* Tariff-plan */
 
-.tariff-plan-columns,.title-tariff-plan {
+.tariff-plan-columns {
     justify-content: space-between;
 }
 
 .title-tariff-plan {
     font-size: 1.4rem;
-    /* border: .5px solid lightgray; */
+    border-bottom: .5px solid lightgray;
     padding: 1em 0;
-    margin-top: 2em;
 }
 
 .title-plan {
     width: calc(100% / 3 - 25px);
     font-size: 1.6rem;
-    border-bottom: .5px solid lightgray;
-    text-align: center;
-    padding-bottom: .5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-plan i {
+    margin-right: 1em;
+}
+
+.container-items-col{
+    width: 100%;
+    padding: 0 2.5em;
+    padding-top: 2.5em;
 }
 
 .col-plan {
     width: calc(100% / 3 - 25px);
     border: .5px solid lightgray;
     margin-bottom: 20px;
-    padding: 2.5em;
+    /* padding: 2.5em; */
 }
 
-.col-plan h3 {
-    margin-top: 4em;
-}
+
 
 span:nth-child(3) {
     color: gray;
@@ -326,10 +332,8 @@ section.clients-text {
     width: calc(100% / 2);
     /* DEBUG */
     height: 300px;
-    background-color: seagreen;
     border: 1px solid white;
 }
-
 .cta {
     width: 100%;
     background-color: #b4d0e7;
