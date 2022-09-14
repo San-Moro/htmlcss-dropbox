@@ -415,28 +415,48 @@ section.clients-text {
     padding: 3em 0;
 }
 
+/* cta */
+
 .cta {
     width: 100%;
     background-color: #b4d0e7;
-    /* DEBUG */
-    height: 400px;
+    padding: 100px 0;
 }
 .cta > .container-small {
-    align-items: center;
+
+}
+
+.container-cta {
+    width: 50%;
+    position: relative;
 }
 
 .text-cta {
     width: 60%;
-    /* DEBUG */
-    height: 200px;
-    background-color: #68142e;
+}
+
+.text-cta h2 {
+    color: var(--bg-brown);
+    margin: 0 0;
 }
 
 .button-cta {
     width: 40%;
-    /* DEBUG */
-    height: 200px;
+    
+   
+}
+
+.btn-cta {
     background-color: white;
+    border: none;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 /* FAQ */
