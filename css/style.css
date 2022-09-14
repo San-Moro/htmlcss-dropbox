@@ -16,10 +16,12 @@ img {
 /* COMMON */
 .container-large {
     width: 65%;
+    max-width: 1200px;
 }
 
 .container-small {
     width: 50%;
+    max-width: 1100px;
     margin-top: 5em;
 }
 
@@ -29,7 +31,6 @@ img {
 }
 
 .btn {
-    min-width: 200px;
     background-color: #0061ff;
     border: none;
     color: white;
@@ -42,8 +43,7 @@ img {
 }
 
 .btn-large {
-    padding: 15px 40px;
-    
+    padding: 15px 40px;  
 }
 
 li{
@@ -173,6 +173,10 @@ header {
     text-decoration: none;
 }
 
+.btn-header {
+
+}
+
 /* JUMBOTRON */
 
 .jumbotron {
@@ -219,6 +223,15 @@ a.btn-cancel-jumbo {
 
 /* MAIN */
 /* Tariff-plan */
+
+.container-radio {
+    margin-bottom: 6em;
+}
+
+.mensile,.annuale {
+    font-size: 1.4rem;
+    padding-right: 1em;
+}
 
 .tariff-plan-columns {
     justify-content: space-between;
@@ -393,6 +406,10 @@ section.clients-text {
     height: 300px;
 }
 
+.bg-green {
+    border: 16px solid #d1e9cd;
+}
+
 .col img , .bg-lightgray img{
     width: 50%;
 }
@@ -502,8 +519,7 @@ footer {
     background-color: black;
     color: white;
     padding-top: 8em;
-    /* DEBUG */
-    min-height: 600px;
+    padding-bottom: 5em;
 }
 
 .col-title-menu {
