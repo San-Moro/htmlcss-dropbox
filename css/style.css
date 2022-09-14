@@ -28,6 +28,28 @@ img {
     justify-content: center;
 }
 
+.btn {
+    min-width: 200px;
+    background-color: #0061ff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+}
+
+.btn-large {
+    padding: 15px 40px;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
 /* UTILITIES */
 
 h2 {
@@ -55,26 +77,60 @@ p {
     line-height: 1.5em;
 }
 
-.btn {
-    min-width: 200px;
-    background-color: #0061ff;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    margin: 20px 0;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.6rem;
+.bg-green {
+    background-color: var(--bg-green);
 }
 
-.btn-large {
-    padding: 15px 40px;
-    
+.bg-brown {
+    background-color: var(--bg-brown);
 }
 
-li{
-    list-style-type: none;
+.bg-blu {
+    background-color: var(--bg-blu);
+}
+
+.bg-red {
+    background-color: var(--bg-red);
+}
+
+.bg-red2 {
+    background-color: var(--bg-red2);
+}
+
+.bg-lightblue {
+    background-color: var(--bg-lightblue);
+}
+
+.bg-blue {
+    background-color: var(--bg-blue);
+}
+
+.bg-yellow {
+    background-color: var(--bg-yellow);
+}
+
+.bg-lightgray {
+    background-color: var(--bg-lightgray);
+}
+
+svg path{
+    fill: white;
+  }
+
+
+/* VARIABLES */
+:root {
+    /* colors client */
+    --bg-green: #a2d39b;
+    --bg-brown: #61082b;
+    --bg-blu: #0093ce; /*florida*/
+    --bg-red: #ff1c1c; /*topps*/
+    --bg-red2: #d5001f; /*world bicycle*/
+    --bg-lightblue: #b4d0e7; /*hearst*/
+    --bg-blue: #0d2481; /*lonely*/
+    --bg-yellow: #ffd830;
+    --bg-lightgray: #f5f5f5;
+
 }
 
 /* HEADER */
@@ -322,18 +378,43 @@ section.clients-text {
 
 .sqr-big-client{
     width: calc(100% / 3);
-    background-color: #e1e1e1;
-    /* DEBUG */
-    min-height: 600px;
-    border: 1px solid black;
 }
 
 .col {
     width: calc(100% / 2);
     /* DEBUG */
     height: 300px;
-    border: 1px solid white;
 }
+
+.col img , .bg-lightgray img{
+    width: 50%;
+}
+
+.bg-red2,.bg-blu,.container-items {
+    align-items: center;
+}
+
+.container-items.bg-lightgray {
+    height: 500px;
+    width: 80%;
+}
+.container-items {
+    align-self: center;
+}
+
+.bg-lightgray img{
+    padding: 4em 0;
+}
+
+.container-items hr {
+    width: 20%;
+    color: lightgray;
+}
+
+.container-items p:nth-child(3) {
+    padding: 3em 0;
+}
+
 .cta {
     width: 100%;
     background-color: #b4d0e7;
